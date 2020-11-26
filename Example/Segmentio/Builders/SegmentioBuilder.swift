@@ -58,7 +58,8 @@ struct SegmentioBuilder {
             labelTextAlignment: .center,
             labelTextNumberOfLines: 1,
             segmentStates: segmentioStates(),
-            animationDuration: 0.3
+            animationDuration: 0.3,
+            cornerRadius: 8.0
         )
     }
     
