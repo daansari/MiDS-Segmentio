@@ -50,7 +50,7 @@ class SegmentioCell: UICollectionViewCell {
                     segmentTitleLabel?.font = isHighlighted ? highlightedState.titleFont : highlightedTitleFont
                 }
                 
-                backgroundColor = isHighlighted ? highlightedState.backgroundColor : .clear
+                containerView?.backgroundColor = cellSelected ? selectedState.backgroundColor : .clear
             }
         }
     }
@@ -59,6 +59,7 @@ class SegmentioCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        backgroundColor = .clear
         imageContainerView = UIView(frame: CGRect.zero)
         if let imageContainerView = imageContainerView {
             contentView.addSubview(imageContainerView)
@@ -129,6 +130,7 @@ class SegmentioCell: UICollectionViewCell {
                 setupVerticalSeparators()
             }
         }
+        self.containerView?.layer.cornerRadius = self.options.cornerRadius
         configurateBadgeWithCount(content.badgeCount, color: content.badgeColor)
     }
     
@@ -142,8 +144,12 @@ class SegmentioCell: UICollectionViewCell {
             segmentTitleLabel?.textColor = selected ? selectedState.titleTextColor : defaultState.titleTextColor
             segmentTitleLabel?.font = selected ? selectedState.titleFont : defaultState.titleFont
             segmentTitleLabel?.alpha = selected ? selectedState.titleAlpha : defaultState.titleAlpha
-            segmentTitleLabel?.minimumScaleFactor = 0.5
-            segmentTitleLabel?.adjustsFontSizeToFitWidth = true
+            segmentTitleLabel?.lineBreakMode = .byTruncatingMiddle
+            if selected {
+                containerView?.backgroundColor = selectedState.backgroundColor
+            } else {
+                containerView?.backgroundColor = .clear
+            }
         }
                 
         if (style != .onlyLabel) {
@@ -295,8 +301,7 @@ class SegmentioCell: UICollectionViewCell {
             segmentTitleLabel?.textColor = defaultState.titleTextColor
             segmentTitleLabel?.font = defaultState.titleFont
             segmentTitleLabel?.text = content.title
-            segmentTitleLabel?.minimumScaleFactor = 0.5
-            segmentTitleLabel?.adjustsFontSizeToFitWidth = true
+            segmentTitleLabel?.lineBreakMode = .byTruncatingMiddle
         }
     }
     
