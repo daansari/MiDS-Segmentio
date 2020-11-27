@@ -22,7 +22,7 @@ final class SegmentioCellWithLabel: SegmentioCell {
         // main constraints
         
         let segmentTitleLabelHorizontConstraint = NSLayoutConstraint.constraints(
-            withVisualFormat: "H:|-16-[containerView]-16-|",
+            withVisualFormat: "H:|[containerView]|",
             options: [.alignAllCenterX],
             metrics: nil,
             views: views
