@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Segmentio
+## MiDS-Segmentio
 
 The MIT License (MIT)
 

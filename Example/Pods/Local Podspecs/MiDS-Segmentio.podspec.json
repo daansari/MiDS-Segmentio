@@ -1,22 +1,22 @@
 {
-  "name": "Segmentio",
-  "version": "4.1",
+  "name": "MiDS-Segmentio",
+  "version": "1.0.0",
   "swift_versions": "5.0",
-  "homepage": "https://github.com/Yalantis/Segmentio",
+  "homepage": "https://github.com/daansari/MiDS-Segmentio",
   "summary": "Animated top/bottom segmented control written in Swift!",
   "screenshots": "https://raw.githubusercontent.com/Yalantis/Segmentio/master/Assets/animation.gif",
-  "authors": "Yalantis",
+  "authors": "Mint-iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "social_media_url": "https://twitter.com/yalantis",
+  "social_media_url": "https://twitter.com/mint",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "source": {
-    "git": "https://github.com/Yalantis/Segmentio.git",
-    "tag": "4.1"
+    "git": "https://github.com/daansari/MiDS-Segmentio.git",
+    "tag": "1.0.0"
   },
   "source_files": "Segmentio/Source/**/*.swift",
   "resources": "Segmentio/Source/Badge/Views/*.xib",

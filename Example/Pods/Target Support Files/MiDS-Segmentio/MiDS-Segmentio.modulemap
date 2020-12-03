@@ -1,5 +1,5 @@
 framework module Segmentio {
-  umbrella header "Segmentio-umbrella.h"
+  umbrella header "MiDS-Segmentio-umbrella.h"
 
   export *
   module * { export * }
