@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
-  spec.name           = "MiDS-Segmentio"
+  spec.name           = "MiDSegment"
   spec.version        = "1.0.0"
   spec.swift_version  = "5.0"
 
-  spec.homepage = "https://github.com/daansari/MiDS-Segmentio"
+  spec.homepage = "https://github.com/daansari/MiDSegment"
   spec.summary = "Animated top/bottom segmented control written in Swift!"
   spec.screenshot = 'https://raw.githubusercontent.com/Yalantis/Segmentio/master/Assets/animation.gif'
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "https://twitter.com/mint"
 
   spec.ios.deployment_target = '11.0'
-  spec.source       = { :git => "https://github.com/daansari/MiDS-Segmentio.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/daansari/MiDSegment.git", :tag => spec.version }
 
   spec.source_files = 'Segmentio/Source/**/*.swift'
   spec.resources = 'Segmentio/Source/Badge/Views/*.xib'

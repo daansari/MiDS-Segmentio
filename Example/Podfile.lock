@@ -1,16 +1,16 @@
 PODS:
-  - MiDS-Segmentio (1.0.0)
+  - MiDSegment (1.0.0)
 
 DEPENDENCIES:
-  - MiDS-Segmentio (from `../`)
+  - MiDSegment (from `../`)
 
 EXTERNAL SOURCES:
-  MiDS-Segmentio:
+  MiDSegment:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MiDS-Segmentio: cd626d467b42e62bed5b9e12adfd2e0cd8cba04f
+  MiDSegment: e8b5f2f23a7b7c0a692801a948793c220a448f65
 
-PODFILE CHECKSUM: 10e8c6db1001e926b2e4fb1b3a83c136b83c57c4
+PODFILE CHECKSUM: 5e208f887814290b0a7fa13182ce00b91a4d11f3
 
 COCOAPODS: 1.9.3

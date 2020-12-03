@@ -7,113 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025AE4A07D4C44DA49B588660A78B0A8 /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CD361363A5CED94724E83D4D533011 /* SegmentioCellWithImage.swift */; };
-		0F4FDEB7F6A91589D03022DF0EDE77FC /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FB62C6BC95B352D5972EA651AC5C3A /* BadgeWithCounterViewStandardSized.xib */; };
-		21480328EBF6918BB9DEE64A13CB3261 /* MiDS-Segmentio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6526CE4D5B83DEF4710DE8B7DBF72 /* MiDS-Segmentio-dummy.m */; };
-		330919E168AA420995566F21B3466C83 /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513C7DBD4ED4A8B2BD3DE946CDA505FE /* BadgeViewPresenter.swift */; };
-		33676EF42C287899CBC39172CDB8A805 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7BD3699468E60D0010D43818E26F /* BadgeWithCounterViewBigSized.xib */; };
-		3634350DD108B29524FBC39515731B35 /* MiDS-Segmentio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5339CD3712CE3B5ED9030C4AD7CC1038 /* MiDS-Segmentio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4629ED09BE5D30A28F2505395D8DB136 /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52063E8AFBD64B834866AD0D15564651 /* Segmentio.swift */; };
-		5271DB5286D2A2E72817B40D2F986770 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AF2F811E9583B52E8C6B7B109664D1 /* SegmentioCellWithLabel.swift */; };
-		7ABE0E4ED79D1759836C34C0D74BF339 /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7396948B0119FDF1EE27EDBA6A81FAC /* SegmentioCellWithImageUnderLabel.swift */; };
-		849D676944999A084DFF2D808F232F58 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7923BB40670B02B427FB2DFA031A8D /* SegmentioCellWithImageOverLabel.swift */; };
-		90E07938B1757F29AFA89429C2A95E74 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E837802714CC387D08FD61E8A1E34A78 /* Segmentio.bundle */; };
-		91B752FD919F6FAED6B2AD5801862DD9 /* Pods-Segmentio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6652DDD669F102ACE0E0084A44D69B2F /* Pods-Segmentio_Example-dummy.m */; };
-		9D01D2F20417FDEF5BA050A75D1FBA3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A4B048780E1E2FBA0A11074FB4BB7987 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD40590D362DB5A9CB5727E4851F116 /* UIView+Appearance.swift */; };
-		A69CD7E2328B28B649F2205741400778 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FB62C6BC95B352D5972EA651AC5C3A /* BadgeWithCounterViewStandardSized.xib */; };
-		AA5E1A6B71BEAAD6B26C3918FDAEFBC7 /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601DF5F87413FE6EC1C65481D617459 /* SegmentioOptions.swift */; };
-		AD757271E23891877143A96435128AB5 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7BD3699468E60D0010D43818E26F /* BadgeWithCounterViewBigSized.xib */; };
-		BD670B540A230C904AB89E4920B38619 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572056E39DA2803184BE24A0B4EC3347 /* RoundImageView.swift */; };
-		C6BFBB701182EF243A7384D417A69509 /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637518A46F6547EA9C28352C16D0175D /* SegmentioCell.swift */; };
-		C78CF97DBBB2A941B9EE7467DF64D7C4 /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC0A33CF2AA87FE1479D3D36745F85 /* SegmentioCellWithImageBeforeLabel.swift */; };
-		C92864B4C27D1FCFBB39DFB50536CBCC /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7521B42D491599AFC5D97B4AE89763 /* BadgeWithCounterView.swift */; };
-		DB9FB68B140BF8A5A6FD4A19ED3A175F /* Pods-Segmentio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D464E6E39D5437209B5077843337E401 /* Pods-Segmentio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7E215DD038F6EA19A89157DFA3F36A7 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FFF0B196EC5D82CD1132FAD0A09C9C /* SegmentioCellWithImageAfterLabel.swift */; };
-		FA6156BF5ECA07FD510CDDA8B9E32636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0ED272551C74E8FC0D9F2E61CEAFEDC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		13D6CEC45DD5C30FEBBF7F2B084D167A /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A864F79DAD806D3E1ED7273379D6F6 /* SegmentioCellWithImageBeforeLabel.swift */; };
+		2D459F8073FD036A25A7899DD3DCF1F1 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95376562A93074933BDCDFD55A82262D /* Segmentio.bundle */; };
+		4743A052D42971FC299F48142EBCECAB /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB2B2A6294E9130A1D54AB9C55272F /* SegmentioCell.swift */; };
+		4948E109B2C217571CAE6CD6ABBD8244 /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA71165D7C63F72E1D9A8BDE91DF4D9 /* BadgeWithCounterView.swift */; };
+		52E52DD97E9FDC18FC88693D3CBA3EAA /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589177C8DF4BFF9E50FC79B4BF9993 /* SegmentioCellWithImageUnderLabel.swift */; };
+		53E0243DAA64C0A8D6C41D7F97E01B6E /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5951CB07DFF86CAD9C1D07214B8E6982 /* Segmentio.swift */; };
+		553D5B2AD088DF48267FE97FCF67B263 /* MiDSegment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB53781C0F02D5412C70752788A68F /* MiDSegment-dummy.m */; };
+		646132EB5A74E856F0F01EC2436FD23E /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DD796AD2DD011B203455E5ECDBB7AE /* BadgeWithCounterViewStandardSized.xib */; };
+		696B31C34832487460EAE060366C663D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7C47341CCFD8391E0FEFE32DEA58CB4B /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B534C02F99AFD9D9FEA1EA81CF31206 /* RoundImageView.swift */; };
+		92CE28C13A11AA88928AAC892FB8E913 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFC72FF6EA8928BCA9001BB95867D9C /* BadgeWithCounterViewBigSized.xib */; };
+		9779FF4AB2BDBAFD82BC6968FFB33579 /* Pods-Segmentio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D464E6E39D5437209B5077843337E401 /* Pods-Segmentio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C857472BEFD208135ADAD61D4EA3199 /* MiDSegment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23821E8F38D58062806C075BA1940F61 /* MiDSegment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DD9282EC1BE871BC5E6780712364B22 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FAE8DECB86DEF35B54B4E32591B5AB /* SegmentioCellWithImageOverLabel.swift */; };
+		9E08B7797B3D8508D1400CE3A514C255 /* Pods-Segmentio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6652DDD669F102ACE0E0084A44D69B2F /* Pods-Segmentio_Example-dummy.m */; };
+		A262C80FAD853BEFFFE03A08F16F0ECF /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DD078E93437A8DD14843F6CB6D7B4 /* SegmentioCellWithLabel.swift */; };
+		B5CBB0A13412914D742BCA6D74C5B523 /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13C1A7A1CB4F9FEF2F270A46D1C6ED /* SegmentioCellWithImage.swift */; };
+		BE22FEFFAC69212E6224EB5310A74AE9 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFC72FF6EA8928BCA9001BB95867D9C /* BadgeWithCounterViewBigSized.xib */; };
+		BF2A52AC0397B2398707C16B714D7423 /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41365E4D4A1ADA7FF53F4554A9F69BF4 /* SegmentioOptions.swift */; };
+		D46CA57947B16A2F8550DF8020B5BDE7 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC13D416E14CABEFE1C237000F8BFCE6 /* UIView+Appearance.swift */; };
+		DD5EAFD58FB6F32D8A6573DD97FD0ED2 /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915AA4EBE2FFAE99957C209C305496E6 /* BadgeViewPresenter.swift */; };
+		F338167FC4A9E01BDC899B923A63658F /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DD796AD2DD011B203455E5ECDBB7AE /* BadgeWithCounterViewStandardSized.xib */; };
+		F8F520673E7CD8E08ACBD2F8C30A7081 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A7F457F2AA7D2058069FEA29C8A88 /* SegmentioCellWithImageAfterLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07555727277EA83BE3BD5859B748C39D /* PBXContainerItemProxy */ = {
+		966A3CE914525343F1A0F5FA965CF8E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4537BD77A628FA3307593017EF28FDC;
-			remoteInfo = "MiDS-Segmentio";
+			remoteGlobalIDString = DE89ED5C78B41B71002D22EBF851BD4E;
+			remoteInfo = "MiDSegment-Segmentio";
 		};
-		1AF9C39F62B563E6E7F67E89D2FB694D /* PBXContainerItemProxy */ = {
+		BA9C37A33E045EFE68B4414FE4811B8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1239443D13E1410D306A4D5E167D5D9C;
-			remoteInfo = "MiDS-Segmentio-Segmentio";
+			remoteGlobalIDString = 6ABACDE77FABFA8F7B3A5E8989560CF8;
+			remoteInfo = MiDSegment;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00750F841B7FF00A88A91240D77C62E9 /* MiDS-Segmentio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiDS-Segmentio-prefix.pch"; sourceTree = "<group>"; };
-		059DA5D45E3B94F94A9F66071309FB62 /* MiDS-Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MiDS-Segmentio.modulemap"; sourceTree = "<group>"; };
-		0A7521B42D491599AFC5D97B4AE89763 /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BadgeWithCounterView.swift; sourceTree = "<group>"; };
+		0B534C02F99AFD9D9FEA1EA81CF31206 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		169B9A0A7EA09E6809E6DAE1E52C9281 /* Pods-Segmentio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Segmentio_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1F1B7BD3699468E60D0010D43818E26F /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
-		2006B29F770C4964BA4F136ADC4D3B99 /* ResourceBundle-Segmentio-MiDS-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-MiDS-Segmentio-Info.plist"; sourceTree = "<group>"; };
 		20E44D59236E2256DE4AC763CE449AE5 /* Pods-Segmentio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segmentio_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23BC0A33CF2AA87FE1479D3D36745F85 /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		23821E8F38D58062806C075BA1940F61 /* MiDSegment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiDSegment-umbrella.h"; sourceTree = "<group>"; };
 		2944451649165C140DE931E034BBB988 /* Pods-Segmentio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segmentio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30168511E8CDA2D745C58A9DDADD2F80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29589177C8DF4BFF9E50FC79B4BF9993 /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3601DF5F87413FE6EC1C65481D617459 /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
-		3FD40590D362DB5A9CB5727E4851F116 /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
-		41FB62C6BC95B352D5972EA651AC5C3A /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
-		4A7923BB40670B02B427FB2DFA031A8D /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
-		513C7DBD4ED4A8B2BD3DE946CDA505FE /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BadgeViewPresenter.swift; sourceTree = "<group>"; };
-		52063E8AFBD64B834866AD0D15564651 /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
-		5339CD3712CE3B5ED9030C4AD7CC1038 /* MiDS-Segmentio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiDS-Segmentio-umbrella.h"; sourceTree = "<group>"; };
-		572056E39DA2803184BE24A0B4EC3347 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
-		5777A54FE55E6E99285C5C5F3481DEBE /* MiDS-Segmentio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MiDS-Segmentio.release.xcconfig"; sourceTree = "<group>"; };
-		59AF2F811E9583B52E8C6B7B109664D1 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
-		637518A46F6547EA9C28352C16D0175D /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCell.swift; sourceTree = "<group>"; };
+		35DD796AD2DD011B203455E5ECDBB7AE /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
+		3741A81609B6662B73255A4F8A1203EE /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segmentio.framework; path = MiDSegment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41365E4D4A1ADA7FF53F4554A9F69BF4 /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
+		5951CB07DFF86CAD9C1D07214B8E6982 /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
 		6652DDD669F102ACE0E0084A44D69B2F /* Pods-Segmentio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segmentio_Example-dummy.m"; sourceTree = "<group>"; };
+		69BB786378B3167B1C63A2A08EAEFA79 /* ResourceBundle-Segmentio-MiDSegment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-MiDSegment-Info.plist"; sourceTree = "<group>"; };
+		6FA71165D7C63F72E1D9A8BDE91DF4D9 /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BadgeWithCounterView.swift; sourceTree = "<group>"; };
 		71C87AF0A14F5EE7506ADA92B7743EDC /* Pods-Segmentio_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segmentio_Example-Info.plist"; sourceTree = "<group>"; };
-		73FFF0B196EC5D82CD1132FAD0A09C9C /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+		74FF2A797D0C13CF98C349716DAB0D92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		81EB2B2A6294E9130A1D54AB9C55272F /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCell.swift; sourceTree = "<group>"; };
 		8362D5D79D4CAE9DFC3D87FA4AA1335A /* Pods-Segmentio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segmentio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		910463612823364DB28F8FADD2EAD5DA /* MiDS-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MiDS-Segmentio-Info.plist"; sourceTree = "<group>"; };
+		8B60B89B558F4D19F3BCFBFB249369CC /* MiDSegment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MiDSegment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		915AA4EBE2FFAE99957C209C305496E6 /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BadgeViewPresenter.swift; sourceTree = "<group>"; };
+		95376562A93074933BDCDFD55A82262D /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Segmentio.bundle; path = "MiDSegment-Segmentio.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DD601B8CDEA53F1EEAEB0C59E3E4A4 /* Pods-Segmentio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segmentio_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FC32C835EF71EACE964D84169B57D33 /* MiDS-Segmentio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MiDS-Segmentio.debug.xcconfig"; sourceTree = "<group>"; };
-		A8988640F4A206BFA2E41953466EE617 /* MiDS-Segmentio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "MiDS-Segmentio.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C13C1A7A1CB4F9FEF2F270A46D1C6ED /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F71622AC0B74BEAC99048C7674095BE /* MiDSegment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MiDSegment-Info.plist"; sourceTree = "<group>"; };
+		9FF4F3FD2CDBFAE5490339259BE04DC8 /* MiDSegment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiDSegment-prefix.pch"; sourceTree = "<group>"; };
+		A16E27582AB63646115E3F8CE0D3908A /* MiDSegment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MiDSegment.modulemap; sourceTree = "<group>"; };
+		A4F50B67A4335232DDFC13538EB3A153 /* MiDSegment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiDSegment.release.xcconfig; sourceTree = "<group>"; };
+		AFFC72FF6EA8928BCA9001BB95867D9C /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
 		B40B142EB9072C431B0D72D5304454FA /* Pods-Segmentio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segmentio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7396948B0119FDF1EE27EDBA6A81FAC /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
-		BF8FBFB6A80DFE71393DC27C8A49E71B /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7DBCC53AD3E127407BC148E168A082C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B564E638477A72282FD81D885229BCC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B5D9D49C95DECC162068B3A929B9125F /* MiDSegment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiDSegment.debug.xcconfig; sourceTree = "<group>"; };
+		D0A864F79DAD806D3E1ED7273379D6F6 /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		D29A7F457F2AA7D2058069FEA29C8A88 /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
 		D464E6E39D5437209B5077843337E401 /* Pods-Segmentio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segmentio_Example-umbrella.h"; sourceTree = "<group>"; };
-		E6CD361363A5CED94724E83D4D533011 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImage.swift; sourceTree = "<group>"; };
-		E837802714CC387D08FD61E8A1E34A78 /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6F172B4784A2A7FA7E1904384F0BE25 /* Pods_Segmentio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmentio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC6526CE4D5B83DEF4710DE8B7DBF72 /* MiDS-Segmentio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MiDS-Segmentio-dummy.m"; sourceTree = "<group>"; };
+		E8FAE8DECB86DEF35B54B4E32591B5AB /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		EC9DD078E93437A8DD14843F6CB6D7B4 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		EEEB53781C0F02D5412C70752788A68F /* MiDSegment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MiDSegment-dummy.m"; sourceTree = "<group>"; };
+		F6F172B4784A2A7FA7E1904384F0BE25 /* Pods_Segmentio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segmentio_Example.framework; path = "Pods-Segmentio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC13D416E14CABEFE1C237000F8BFCE6 /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7C434745A61F0EC2A460FA0B331D0C8 /* Frameworks */ = {
+		447D02C4A06B6DA8D80F179E67A6393C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6156BF5ECA07FD510CDDA8B9E32636 /* Foundation.framework in Frameworks */,
+				696B31C34832487460EAE060366C663D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAFC0CCF1F090B5E36F6ECF638DB6C2 /* Frameworks */ = {
+		66AF84BC78621921C68BAE703C3A74DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDD100FD554C432F47BEB3A8A98EAF93 /* Frameworks */ = {
+		D388C6CEE83692D0A54F82A30448C463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D01D2F20417FDEF5BA050A75D1FBA3B /* Foundation.framework in Frameworks */,
+				0ED272551C74E8FC0D9F2E61CEAFEDC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,12 +128,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2B9EB63CE7B3DF752647A1596C92B5DC /* Development Pods */ = {
+		17018C18A8FF3AD5CE032AE113B42B4F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F10ACAD0C146CEE7BF7953DAC1D15D8A /* MiDS-Segmentio */,
+				A16E27582AB63646115E3F8CE0D3908A /* MiDSegment.modulemap */,
+				EEEB53781C0F02D5412C70752788A68F /* MiDSegment-dummy.m */,
+				9F71622AC0B74BEAC99048C7674095BE /* MiDSegment-Info.plist */,
+				9FF4F3FD2CDBFAE5490339259BE04DC8 /* MiDSegment-prefix.pch */,
+				23821E8F38D58062806C075BA1940F61 /* MiDSegment-umbrella.h */,
+				B5D9D49C95DECC162068B3A929B9125F /* MiDSegment.debug.xcconfig */,
+				A4F50B67A4335232DDFC13538EB3A153 /* MiDSegment.release.xcconfig */,
+				69BB786378B3167B1C63A2A08EAEFA79 /* ResourceBundle-Segmentio-MiDSegment-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MiDSegment";
+			sourceTree = "<group>";
+		};
+		1C877B3AF2CFAB5637C2F23CEBF96C75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FA71165D7C63F72E1D9A8BDE91DF4D9 /* BadgeWithCounterView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52DF188114ED998AA43BA1FC1903C134 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				915AA4EBE2FFAE99957C209C305496E6 /* BadgeViewPresenter.swift */,
+				1C877B3AF2CFAB5637C2F23CEBF96C75 /* Views */,
+			);
+			name = Badge;
+			path = Segmentio/Source/Badge;
 			sourceTree = "<group>";
 		};
 		5A446DE3884E1362EED3E4C94D1173BA /* Pods-Segmentio_Example */ = {
@@ -153,40 +180,54 @@
 			path = "Target Support Files/Pods-Segmentio_Example";
 			sourceTree = "<group>";
 		};
-		614C90042FAD040DEF8A86F83091BEFE /* Products */ = {
+		78C1ECCA47CF92234212F5413CE36ED5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81EB2B2A6294E9130A1D54AB9C55272F /* SegmentioCell.swift */,
+				9C13C1A7A1CB4F9FEF2F270A46D1C6ED /* SegmentioCellWithImage.swift */,
+				D29A7F457F2AA7D2058069FEA29C8A88 /* SegmentioCellWithImageAfterLabel.swift */,
+				D0A864F79DAD806D3E1ED7273379D6F6 /* SegmentioCellWithImageBeforeLabel.swift */,
+				E8FAE8DECB86DEF35B54B4E32591B5AB /* SegmentioCellWithImageOverLabel.swift */,
+				29589177C8DF4BFF9E50FC79B4BF9993 /* SegmentioCellWithImageUnderLabel.swift */,
+				EC9DD078E93437A8DD14843F6CB6D7B4 /* SegmentioCellWithLabel.swift */,
+			);
+			name = Cells;
+			path = Segmentio/Source/Cells;
+			sourceTree = "<group>";
+		};
+		793C2B2942B784E2486F712A522C46BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D02FF3C2AF40BBF02CABB938CBAEBEC5 /* MiDSegment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		84D9DD206D8F6489287328FF5EEBC4D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				F6F172B4784A2A7FA7E1904384F0BE25 /* Pods_Segmentio_Example.framework */,
-				E837802714CC387D08FD61E8A1E34A78 /* Segmentio.bundle */,
-				BF8FBFB6A80DFE71393DC27C8A49E71B /* Segmentio.framework */,
+				95376562A93074933BDCDFD55A82262D /* Segmentio.bundle */,
+				3741A81609B6662B73255A4F8A1203EE /* Segmentio.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73D9879B873310967FCCE42C3779C7A9 /* Badge */ = {
+		98CC683DD8780D0200405FD055AB11C7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				513C7DBD4ED4A8B2BD3DE946CDA505FE /* BadgeViewPresenter.swift */,
-				EE063F01C948CF75230DBCDA52E6D78B /* Views */,
+				B564E638477A72282FD81D885229BCC2 /* LICENSE */,
+				8B60B89B558F4D19F3BCFBFB249369CC /* MiDSegment.podspec */,
+				74FF2A797D0C13CF98C349716DAB0D92 /* README.md */,
 			);
-			name = Badge;
-			path = Segmentio/Source/Badge;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		942B710B5CC9EA8BD4B126EEBBBCFD24 /* Resources */ = {
+		AF662953ADD7824BE6CDD3795BCFCEA8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1F1B7BD3699468E60D0010D43818E26F /* BadgeWithCounterViewBigSized.xib */,
-				41FB62C6BC95B352D5972EA651AC5C3A /* BadgeWithCounterViewStandardSized.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BB02221C4453FF3543EB4791C7CB5D54 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				572056E39DA2803184BE24A0B4EC3347 /* RoundImageView.swift */,
-				3FD40590D362DB5A9CB5727E4851F116 /* UIView+Appearance.swift */,
+				0B534C02F99AFD9D9FEA1EA81CF31206 /* RoundImageView.swift */,
+				FC13D416E14CABEFE1C237000F8BFCE6 /* UIView+Appearance.swift */,
 			);
 			name = Extensions;
 			path = Segmentio/Source/Extensions;
@@ -200,46 +241,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CB51348701A3C7E262BEA972EB9FA95F /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				637518A46F6547EA9C28352C16D0175D /* SegmentioCell.swift */,
-				E6CD361363A5CED94724E83D4D533011 /* SegmentioCellWithImage.swift */,
-				73FFF0B196EC5D82CD1132FAD0A09C9C /* SegmentioCellWithImageAfterLabel.swift */,
-				23BC0A33CF2AA87FE1479D3D36745F85 /* SegmentioCellWithImageBeforeLabel.swift */,
-				4A7923BB40670B02B427FB2DFA031A8D /* SegmentioCellWithImageOverLabel.swift */,
-				B7396948B0119FDF1EE27EDBA6A81FAC /* SegmentioCellWithImageUnderLabel.swift */,
-				59AF2F811E9583B52E8C6B7B109664D1 /* SegmentioCellWithLabel.swift */,
-			);
-			name = Cells;
-			path = Segmentio/Source/Cells;
-			sourceTree = "<group>";
-		};
-		CC099969157DFCA7EF04F7D80A4F48C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				059DA5D45E3B94F94A9F66071309FB62 /* MiDS-Segmentio.modulemap */,
-				FAC6526CE4D5B83DEF4710DE8B7DBF72 /* MiDS-Segmentio-dummy.m */,
-				910463612823364DB28F8FADD2EAD5DA /* MiDS-Segmentio-Info.plist */,
-				00750F841B7FF00A88A91240D77C62E9 /* MiDS-Segmentio-prefix.pch */,
-				5339CD3712CE3B5ED9030C4AD7CC1038 /* MiDS-Segmentio-umbrella.h */,
-				9FC32C835EF71EACE964D84169B57D33 /* MiDS-Segmentio.debug.xcconfig */,
-				5777A54FE55E6E99285C5C5F3481DEBE /* MiDS-Segmentio.release.xcconfig */,
-				2006B29F770C4964BA4F136ADC4D3B99 /* ResourceBundle-Segmentio-MiDS-Segmentio-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MiDS-Segmentio";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2B9EB63CE7B3DF752647A1596C92B5DC /* Development Pods */,
+				793C2B2942B784E2486F712A522C46BD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				614C90042FAD040DEF8A86F83091BEFE /* Products */,
+				84D9DD206D8F6489287328FF5EEBC4D1 /* Products */,
 				112557561F62E4157BF7A720C50F10EB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D02FF3C2AF40BBF02CABB938CBAEBEC5 /* MiDSegment */ = {
+			isa = PBXGroup;
+			children = (
+				5951CB07DFF86CAD9C1D07214B8E6982 /* Segmentio.swift */,
+				41365E4D4A1ADA7FF53F4554A9F69BF4 /* SegmentioOptions.swift */,
+				52DF188114ED998AA43BA1FC1903C134 /* Badge */,
+				78C1ECCA47CF92234212F5413CE36ED5 /* Cells */,
+				AF662953ADD7824BE6CDD3795BCFCEA8 /* Extensions */,
+				98CC683DD8780D0200405FD055AB11C7 /* Pod */,
+				F79556146A58EE3693C58E1A4DB97352 /* Resources */,
+				17018C18A8FF3AD5CE032AE113B42B4F /* Support Files */,
+			);
+			name = MiDSegment;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -250,116 +276,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E74E1C6A6D0B7923A8C21CE900C30F44 /* Pod */ = {
+		F79556146A58EE3693C58E1A4DB97352 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				30168511E8CDA2D745C58A9DDADD2F80 /* LICENSE */,
-				A8988640F4A206BFA2E41953466EE617 /* MiDS-Segmentio.podspec */,
-				C7DBCC53AD3E127407BC148E168A082C /* README.md */,
+				AFFC72FF6EA8928BCA9001BB95867D9C /* BadgeWithCounterViewBigSized.xib */,
+				35DD796AD2DD011B203455E5ECDBB7AE /* BadgeWithCounterViewStandardSized.xib */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EE063F01C948CF75230DBCDA52E6D78B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0A7521B42D491599AFC5D97B4AE89763 /* BadgeWithCounterView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		F10ACAD0C146CEE7BF7953DAC1D15D8A /* MiDS-Segmentio */ = {
-			isa = PBXGroup;
-			children = (
-				52063E8AFBD64B834866AD0D15564651 /* Segmentio.swift */,
-				3601DF5F87413FE6EC1C65481D617459 /* SegmentioOptions.swift */,
-				73D9879B873310967FCCE42C3779C7A9 /* Badge */,
-				CB51348701A3C7E262BEA972EB9FA95F /* Cells */,
-				BB02221C4453FF3543EB4791C7CB5D54 /* Extensions */,
-				E74E1C6A6D0B7923A8C21CE900C30F44 /* Pod */,
-				942B710B5CC9EA8BD4B126EEBBBCFD24 /* Resources */,
-				CC099969157DFCA7EF04F7D80A4F48C5 /* Support Files */,
-			);
-			name = "MiDS-Segmentio";
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5C5A760DA35E0F0AF816A7D9AEE88A08 /* Headers */ = {
+		25FB2731DCC6C02F186020647C5E8BF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9FB68B140BF8A5A6FD4A19ED3A175F /* Pods-Segmentio_Example-umbrella.h in Headers */,
+				9C857472BEFD208135ADAD61D4EA3199 /* MiDSegment-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95F271C4583B02FFFF575904993AC6DC /* Headers */ = {
+		4259B5E195171D334C4CD0F788DE23B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3634350DD108B29524FBC39515731B35 /* MiDS-Segmentio-umbrella.h in Headers */,
+				9779FF4AB2BDBAFD82BC6968FFB33579 /* Pods-Segmentio_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1239443D13E1410D306A4D5E167D5D9C /* MiDS-Segmentio-Segmentio */ = {
+		6ABACDE77FABFA8F7B3A5E8989560CF8 /* MiDSegment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE118E08BCD7510AD0118B0D2B15D36 /* Build configuration list for PBXNativeTarget "MiDS-Segmentio-Segmentio" */;
+			buildConfigurationList = BFCAF071F924087DD89C5DA9B813AE20 /* Build configuration list for PBXNativeTarget "MiDSegment" */;
 			buildPhases = (
-				D5608D1F9B2E5C52350D757CC905A33F /* Sources */,
-				EAAFC0CCF1F090B5E36F6ECF638DB6C2 /* Frameworks */,
-				C782B889AB5F48CDA83684BB75EF44D8 /* Resources */,
+				25FB2731DCC6C02F186020647C5E8BF5 /* Headers */,
+				B693F5B80730C62AE81A66495A40EE2F /* Sources */,
+				D388C6CEE83692D0A54F82A30448C463 /* Frameworks */,
+				69833D8F8A7BB672C2092ED82334A753 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2F4A06030C9E07D3728E439FB801E9A4 /* PBXTargetDependency */,
 			);
-			name = "MiDS-Segmentio-Segmentio";
-			productName = "MiDS-Segmentio-Segmentio";
-			productReference = E837802714CC387D08FD61E8A1E34A78 /* Segmentio.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = MiDSegment;
+			productName = MiDSegment;
+			productReference = 3741A81609B6662B73255A4F8A1203EE /* Segmentio.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9F7744F23540A54DCFD0B0A0E2C49833 /* Pods-Segmentio_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52B72FCF862E6139B5E71868839781AB /* Build configuration list for PBXNativeTarget "Pods-Segmentio_Example" */;
+			buildConfigurationList = E0E238C3A8BDBCDA5912B7A9CC91607E /* Build configuration list for PBXNativeTarget "Pods-Segmentio_Example" */;
 			buildPhases = (
-				5C5A760DA35E0F0AF816A7D9AEE88A08 /* Headers */,
-				5941185460A6DB182279987F528D65D2 /* Sources */,
-				D7C434745A61F0EC2A460FA0B331D0C8 /* Frameworks */,
-				61030160916BB83292D89C559B3EA9CE /* Resources */,
+				4259B5E195171D334C4CD0F788DE23B1 /* Headers */,
+				C620320D7977C7311A5FA516E05E63DC /* Sources */,
+				447D02C4A06B6DA8D80F179E67A6393C /* Frameworks */,
+				F1F76BF06BC383E776158491597DDAB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C189063FB2BD7F540F659D7AD0051AC /* PBXTargetDependency */,
+				FDE63BF467E9C05A3CFAF13AC700B495 /* PBXTargetDependency */,
 			);
 			name = "Pods-Segmentio_Example";
 			productName = "Pods-Segmentio_Example";
 			productReference = F6F172B4784A2A7FA7E1904384F0BE25 /* Pods_Segmentio_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4537BD77A628FA3307593017EF28FDC /* MiDS-Segmentio */ = {
+		DE89ED5C78B41B71002D22EBF851BD4E /* MiDSegment-Segmentio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DF1C6250E16ABF2F0F9E1A93E092181 /* Build configuration list for PBXNativeTarget "MiDS-Segmentio" */;
+			buildConfigurationList = 6447928605EBD2151A228B4A78E61458 /* Build configuration list for PBXNativeTarget "MiDSegment-Segmentio" */;
 			buildPhases = (
-				95F271C4583B02FFFF575904993AC6DC /* Headers */,
-				072660D33071772B57883B71B75B3007 /* Sources */,
-				FDD100FD554C432F47BEB3A8A98EAF93 /* Frameworks */,
-				BA4D4A938254344B1B6FB2FBF48616AF /* Resources */,
+				D02709D208A4281D0A4FEC71BC4D3723 /* Sources */,
+				66AF84BC78621921C68BAE703C3A74DD /* Frameworks */,
+				24ADB09A96A72B4156A3ABD902FDF611 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				335D5E0D3547A869CAE92AB772BED8DE /* PBXTargetDependency */,
 			);
-			name = "MiDS-Segmentio";
-			productName = "MiDS-Segmentio";
-			productReference = BF8FBFB6A80DFE71393DC27C8A49E71B /* Segmentio.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "MiDSegment-Segmentio";
+			productName = "MiDSegment-Segmentio";
+			productReference = 95376562A93074933BDCDFD55A82262D /* Segmentio.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -379,77 +380,77 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 614C90042FAD040DEF8A86F83091BEFE /* Products */;
+			productRefGroup = 84D9DD206D8F6489287328FF5EEBC4D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4537BD77A628FA3307593017EF28FDC /* MiDS-Segmentio */,
-				1239443D13E1410D306A4D5E167D5D9C /* MiDS-Segmentio-Segmentio */,
+				6ABACDE77FABFA8F7B3A5E8989560CF8 /* MiDSegment */,
+				DE89ED5C78B41B71002D22EBF851BD4E /* MiDSegment-Segmentio */,
 				9F7744F23540A54DCFD0B0A0E2C49833 /* Pods-Segmentio_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61030160916BB83292D89C559B3EA9CE /* Resources */ = {
+		24ADB09A96A72B4156A3ABD902FDF611 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CE28C13A11AA88928AAC892FB8E913 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				F338167FC4A9E01BDC899B923A63658F /* BadgeWithCounterViewStandardSized.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA4D4A938254344B1B6FB2FBF48616AF /* Resources */ = {
+		69833D8F8A7BB672C2092ED82334A753 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33676EF42C287899CBC39172CDB8A805 /* BadgeWithCounterViewBigSized.xib in Resources */,
-				0F4FDEB7F6A91589D03022DF0EDE77FC /* BadgeWithCounterViewStandardSized.xib in Resources */,
-				90E07938B1757F29AFA89429C2A95E74 /* Segmentio.bundle in Resources */,
+				BE22FEFFAC69212E6224EB5310A74AE9 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				646132EB5A74E856F0F01EC2436FD23E /* BadgeWithCounterViewStandardSized.xib in Resources */,
+				2D459F8073FD036A25A7899DD3DCF1F1 /* Segmentio.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C782B889AB5F48CDA83684BB75EF44D8 /* Resources */ = {
+		F1F76BF06BC383E776158491597DDAB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD757271E23891877143A96435128AB5 /* BadgeWithCounterViewBigSized.xib in Resources */,
-				A69CD7E2328B28B649F2205741400778 /* BadgeWithCounterViewStandardSized.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		072660D33071772B57883B71B75B3007 /* Sources */ = {
+		B693F5B80730C62AE81A66495A40EE2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330919E168AA420995566F21B3466C83 /* BadgeViewPresenter.swift in Sources */,
-				C92864B4C27D1FCFBB39DFB50536CBCC /* BadgeWithCounterView.swift in Sources */,
-				21480328EBF6918BB9DEE64A13CB3261 /* MiDS-Segmentio-dummy.m in Sources */,
-				BD670B540A230C904AB89E4920B38619 /* RoundImageView.swift in Sources */,
-				4629ED09BE5D30A28F2505395D8DB136 /* Segmentio.swift in Sources */,
-				C6BFBB701182EF243A7384D417A69509 /* SegmentioCell.swift in Sources */,
-				025AE4A07D4C44DA49B588660A78B0A8 /* SegmentioCellWithImage.swift in Sources */,
-				E7E215DD038F6EA19A89157DFA3F36A7 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
-				C78CF97DBBB2A941B9EE7467DF64D7C4 /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
-				849D676944999A084DFF2D808F232F58 /* SegmentioCellWithImageOverLabel.swift in Sources */,
-				7ABE0E4ED79D1759836C34C0D74BF339 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
-				5271DB5286D2A2E72817B40D2F986770 /* SegmentioCellWithLabel.swift in Sources */,
-				AA5E1A6B71BEAAD6B26C3918FDAEFBC7 /* SegmentioOptions.swift in Sources */,
-				A4B048780E1E2FBA0A11074FB4BB7987 /* UIView+Appearance.swift in Sources */,
+				DD5EAFD58FB6F32D8A6573DD97FD0ED2 /* BadgeViewPresenter.swift in Sources */,
+				4948E109B2C217571CAE6CD6ABBD8244 /* BadgeWithCounterView.swift in Sources */,
+				553D5B2AD088DF48267FE97FCF67B263 /* MiDSegment-dummy.m in Sources */,
+				7C47341CCFD8391E0FEFE32DEA58CB4B /* RoundImageView.swift in Sources */,
+				53E0243DAA64C0A8D6C41D7F97E01B6E /* Segmentio.swift in Sources */,
+				4743A052D42971FC299F48142EBCECAB /* SegmentioCell.swift in Sources */,
+				B5CBB0A13412914D742BCA6D74C5B523 /* SegmentioCellWithImage.swift in Sources */,
+				F8F520673E7CD8E08ACBD2F8C30A7081 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+				13D6CEC45DD5C30FEBBF7F2B084D167A /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				9DD9282EC1BE871BC5E6780712364B22 /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				52E52DD97E9FDC18FC88693D3CBA3EAA /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				A262C80FAD853BEFFFE03A08F16F0ECF /* SegmentioCellWithLabel.swift in Sources */,
+				BF2A52AC0397B2398707C16B714D7423 /* SegmentioOptions.swift in Sources */,
+				D46CA57947B16A2F8550DF8020B5BDE7 /* UIView+Appearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5941185460A6DB182279987F528D65D2 /* Sources */ = {
+		C620320D7977C7311A5FA516E05E63DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B752FD919F6FAED6B2AD5801862DD9 /* Pods-Segmentio_Example-dummy.m in Sources */,
+				9E08B7797B3D8508D1400CE3A514C255 /* Pods-Segmentio_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5608D1F9B2E5C52350D757CC905A33F /* Sources */ = {
+		D02709D208A4281D0A4FEC71BC4D3723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,17 +460,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		335D5E0D3547A869CAE92AB772BED8DE /* PBXTargetDependency */ = {
+		2F4A06030C9E07D3728E439FB801E9A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "MiDS-Segmentio-Segmentio";
-			target = 1239443D13E1410D306A4D5E167D5D9C /* MiDS-Segmentio-Segmentio */;
-			targetProxy = 1AF9C39F62B563E6E7F67E89D2FB694D /* PBXContainerItemProxy */;
+			name = "MiDSegment-Segmentio";
+			target = DE89ED5C78B41B71002D22EBF851BD4E /* MiDSegment-Segmentio */;
+			targetProxy = 966A3CE914525343F1A0F5FA965CF8E6 /* PBXContainerItemProxy */;
 		};
-		7C189063FB2BD7F540F659D7AD0051AC /* PBXTargetDependency */ = {
+		FDE63BF467E9C05A3CFAF13AC700B495 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "MiDS-Segmentio";
-			target = C4537BD77A628FA3307593017EF28FDC /* MiDS-Segmentio */;
-			targetProxy = 07555727277EA83BE3BD5859B748C39D /* PBXContainerItemProxy */;
+			name = MiDSegment;
+			target = 6ABACDE77FABFA8F7B3A5E8989560CF8 /* MiDSegment */;
+			targetProxy = BA9C37A33E045EFE68B4414FE4811B8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,15 +528,50 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		2C9D5BA01D81DB31ED1B24178DFFB10B /* Debug */ = {
+		3F473FAC7508A113528C84ABB4D3C5C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC32C835EF71EACE964D84169B57D33 /* MiDS-Segmentio.debug.xcconfig */;
+			baseConfigurationReference = A4F50B67A4335232DDFC13538EB3A153 /* MiDSegment.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MiDSegment";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/MiDSegment/ResourceBundle-Segmentio-MiDSegment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		95DBFA3CDA32AD98BB9B4ADD1D55C828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D9D49C95DECC162068B3A929B9125F /* MiDSegment.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MiDSegment";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/MiDSegment/ResourceBundle-Segmentio-MiDSegment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A441830FFFAFC6FF2386BC2F04056E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F50B67A4335232DDFC13538EB3A153 /* MiDSegment.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -548,13 +584,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MiDSegment/MiDSegment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiDSegment/MiDSegment-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Segmentio;
+				MODULEMAP_FILE = "Target Support Files/MiDSegment/MiDSegment.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1D3BFB3757224318AE0C9F6BA3B5269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D9D49C95DECC162068B3A929B9125F /* MiDSegment.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MiDSegment/MiDSegment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MiDSegment/MiDSegment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MiDSegment/MiDSegment.modulemap";
 				PRODUCT_MODULE_NAME = Segmentio;
 				PRODUCT_NAME = Segmentio;
 				SDKROOT = iphoneos;
@@ -567,24 +636,7 @@
 			};
 			name = Debug;
 		};
-		4962E8FBD23BEBE5E0EFE6C8D64A7834 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC32C835EF71EACE964D84169B57D33 /* MiDS-Segmentio.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MiDS-Segmentio";
-				IBSC_MODULE = Segmentio;
-				INFOPLIST_FILE = "Target Support Files/MiDS-Segmentio/ResourceBundle-Segmentio-MiDS-Segmentio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = Segmentio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5F00F059DEB3CF94B67C773F2FDA8C57 /* Debug */ = {
+		C9801DFF20346712BB1A51609111C429 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20E44D59236E2256DE4AC763CE449AE5 /* Pods-Segmentio_Example.debug.xcconfig */;
 			buildSettings = {
@@ -618,77 +670,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B205061153E01DFB58F1500136E9BDF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8362D5D79D4CAE9DFC3D87FA4AA1335A /* Pods-Segmentio_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C42D2101A392D1DADE22489A94BC47F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5777A54FE55E6E99285C5C5F3481DEBE /* MiDS-Segmentio.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MiDS-Segmentio/MiDS-Segmentio.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.Segmentio;
-				PRODUCT_MODULE_NAME = Segmentio;
-				PRODUCT_NAME = Segmentio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -754,44 +735,45 @@
 			};
 			name = Debug;
 		};
-		F1B403403D359ABBECE66776725D1C82 /* Release */ = {
+		F2A9EFCE14654B869F2DF7DEB12CC391 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5777A54FE55E6E99285C5C5F3481DEBE /* MiDS-Segmentio.release.xcconfig */;
+			baseConfigurationReference = 8362D5D79D4CAE9DFC3D87FA4AA1335A /* Pods-Segmentio_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MiDS-Segmentio";
-				IBSC_MODULE = Segmentio;
-				INFOPLIST_FILE = "Target Support Files/MiDS-Segmentio/ResourceBundle-Segmentio-MiDS-Segmentio-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = Segmentio;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DF1C6250E16ABF2F0F9E1A93E092181 /* Build configuration list for PBXNativeTarget "MiDS-Segmentio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C9D5BA01D81DB31ED1B24178DFFB10B /* Debug */,
-				C42D2101A392D1DADE22489A94BC47F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2DE118E08BCD7510AD0118B0D2B15D36 /* Build configuration list for PBXNativeTarget "MiDS-Segmentio-Segmentio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4962E8FBD23BEBE5E0EFE6C8D64A7834 /* Debug */,
-				F1B403403D359ABBECE66776725D1C82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -801,11 +783,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52B72FCF862E6139B5E71868839781AB /* Build configuration list for PBXNativeTarget "Pods-Segmentio_Example" */ = {
+		6447928605EBD2151A228B4A78E61458 /* Build configuration list for PBXNativeTarget "MiDSegment-Segmentio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F00F059DEB3CF94B67C773F2FDA8C57 /* Debug */,
-				B205061153E01DFB58F1500136E9BDF1 /* Release */,
+				95DBFA3CDA32AD98BB9B4ADD1D55C828 /* Debug */,
+				3F473FAC7508A113528C84ABB4D3C5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCAF071F924087DD89C5DA9B813AE20 /* Build configuration list for PBXNativeTarget "MiDSegment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D3BFB3757224318AE0C9F6BA3B5269 /* Debug */,
+				A441830FFFAFC6FF2386BC2F04056E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E238C3A8BDBCDA5912B7A9CC91607E /* Build configuration list for PBXNativeTarget "Pods-Segmentio_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9801DFF20346712BB1A51609111C429 /* Debug */,
+				F2A9EFCE14654B869F2DF7DEB12CC391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
