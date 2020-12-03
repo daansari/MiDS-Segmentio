@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Segmentio
+import MiDSegment
 
 class ExampleViewController: UIViewController {
     

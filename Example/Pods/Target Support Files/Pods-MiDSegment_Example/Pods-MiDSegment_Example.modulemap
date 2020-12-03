@@ -1,0 +1,6 @@
+framework module Pods_MiDSegment_Example {
+  umbrella header "Pods-MiDSegment_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

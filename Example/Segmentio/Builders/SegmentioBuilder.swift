@@ -6,7 +6,7 @@
 //  Copyright © 2016 CocoaPods. All rights reserved.
 //
 
-import Segmentio
+import MiDSegment
 import UIKit
 
 struct SegmentioBuilder {

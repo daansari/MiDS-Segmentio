@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SegmentioVersionNumber;
-FOUNDATION_EXPORT const unsigned char SegmentioVersionString[];
+FOUNDATION_EXPORT double MiDSegmentVersionNumber;
+FOUNDATION_EXPORT const unsigned char MiDSegmentVersionString[];
 

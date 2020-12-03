@@ -21,7 +21,7 @@ class BadgeWithCounterView: UIView {
         let nibName = nibNameForSize(size)
         let podBundle = Bundle(for: self.classForCoder())
         
-        if let bundleURL = podBundle.url(forResource: "Segmentio", withExtension: "bundle"),
+        if let bundleURL = podBundle.url(forResource: "MiDSegment", withExtension: "bundle"),
             let bundle = Bundle(url: bundleURL) {
             return UINib(nibName: nibName, bundle: bundle)
                 .instantiate(withOwner: nil, options: nil)[0] as! BadgeWithCounterView

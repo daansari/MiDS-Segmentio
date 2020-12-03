@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "324B603F1D33E43E0050B083"
-               BuildableName = "Segmentio.framework"
-               BlueprintName = "Segmentio"
-               ReferencedContainer = "container:Segmentio.xcodeproj">
+               BuildableName = "MiDSegment.framework"
+               BlueprintName = "MiDSegment"
+               ReferencedContainer = "container:MiDSegment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "324B603F1D33E43E0050B083"
-            BuildableName = "Segmentio.framework"
-            BlueprintName = "Segmentio"
-            ReferencedContainer = "container:Segmentio.xcodeproj">
+            BuildableName = "MiDSegment.framework"
+            BlueprintName = "MiDSegment"
+            ReferencedContainer = "container:MiDSegment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "324B603F1D33E43E0050B083"
-            BuildableName = "Segmentio.framework"
-            BlueprintName = "Segmentio"
-            ReferencedContainer = "container:Segmentio.xcodeproj">
+            BuildableName = "MiDSegment.framework"
+            BlueprintName = "MiDSegment"
+            ReferencedContainer = "container:MiDSegment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

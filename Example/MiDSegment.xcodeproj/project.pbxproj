@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A02A4E554813A297EC6C129 /* Pods_MiDSegment_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA39F2FE17CF6D789BD63D /* Pods_MiDSegment_Example.framework */; };
+		1E0AD686257922A500D31E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0AD685257922A500D31E98 /* Main.storyboard */; };
+		1E0AD68A257922B900D31E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0AD689257922B900D31E98 /* LaunchScreen.storyboard */; };
 		324015CC1D22C0ED0096E353 /* Hints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CB1D22C0ED0096E353 /* Hints.swift */; };
 		324015CE1D22D40A0096E353 /* UIFont+ExampleFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CD1D22D40A0096E353 /* UIFont+ExampleFonts.swift */; };
 		324015D01D22FCD50096E353 /* String+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CF1D22FCD50096E353 /* String+Convenience.swift */; };
@@ -16,8 +19,6 @@
 		327AF5D31D1ABEC100534355 /* AppearanceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5AE1D1ABEC100534355 /* AppearanceConfigurator.swift */; };
 		327AF5D41D1ABEC100534355 /* Disaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5B01D1ABEC100534355 /* Disaster.swift */; };
 		327AF5D51D1ABEC100534355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327AF5B21D1ABEC100534355 /* Assets.xcassets */; };
-		327AF5E41D1ABEC100534355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327AF5C31D1ABEC100534355 /* LaunchScreen.storyboard */; };
-		327AF5E51D1ABEC100534355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327AF5C41D1ABEC100534355 /* Main.storyboard */; };
 		327AF5E71D1ABEC100534355 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5C81D1ABEC100534355 /* ContentViewController.swift */; };
 		327AF5E81D1ABEC100534355 /* EmbedContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5C91D1ABEC100534355 /* EmbedContainerViewController.swift */; };
 		327AF5E91D1ABEC100534355 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5CA1D1ABEC100534355 /* ExampleViewController.swift */; };
@@ -25,11 +26,11 @@
 		327AF5EB1D1ABEC100534355 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5CC1D1ABEC100534355 /* SideMenuViewController.swift */; };
 		327AF6041D1AC0FE00534355 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6031D1AC0FE00534355 /* ColorPalette.swift */; };
 		32C3706C1DD9C4FA001A39CB /* SegmentioBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3706B1DD9C4FA001A39CB /* SegmentioBuilder.swift */; };
-		BB441062ADC9F7ED4A990354 /* Pods_Segmentio_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC02D9CEBA230CE9A9BF22C /* Pods_Segmentio_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AC02D9CEBA230CE9A9BF22C /* Pods_Segmentio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmentio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0AD685257922A500D31E98 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1E0AD689257922B900D31E98 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E81896325791DBC00497071 /* MiDSegment.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MiDSegment.podspec; path = ../MiDSegment.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2F629976269F20B0601D695D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		324015CB1D22C0ED0096E353 /* Hints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hints.swift; sourceTree = "<group>"; };
@@ -41,8 +42,6 @@
 		327AF5AE1D1ABEC100534355 /* AppearanceConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceConfigurator.swift; sourceTree = "<group>"; };
 		327AF5B01D1ABEC100534355 /* Disaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disaster.swift; sourceTree = "<group>"; };
 		327AF5B21D1ABEC100534355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		327AF5C31D1ABEC100534355 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		327AF5C41D1ABEC100534355 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		327AF5C81D1ABEC100534355 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		327AF5C91D1ABEC100534355 /* EmbedContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedContainerViewController.swift; sourceTree = "<group>"; };
 		327AF5CA1D1ABEC100534355 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +50,11 @@
 		327AF6031D1AC0FE00534355 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		32C3706B1DD9C4FA001A39CB /* SegmentioBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioBuilder.swift; sourceTree = "<group>"; };
 		32C3A9241D2BB3B5004C0FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* Segmentio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segmentio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* MiDSegment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiDSegment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9933A064DD85A39037D6C6FC /* Pods-Segmentio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segmentio_Example.release.xcconfig"; path = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF66520A8C3B58E2FC22C362 /* Pods-Segmentio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segmentio_Example.debug.xcconfig"; path = "Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61EA39F2FE17CF6D789BD63D /* Pods_MiDSegment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiDSegment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8526CB75162783D6CEE33DE5 /* Pods-MiDSegment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiDSegment_Example.release.xcconfig"; path = "Target Support Files/Pods-MiDSegment_Example/Pods-MiDSegment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE3F09C8871621BCB2C3688F /* Pods-MiDSegment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiDSegment_Example.debug.xcconfig"; path = "Target Support Files/Pods-MiDSegment_Example/Pods-MiDSegment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB441062ADC9F7ED4A990354 /* Pods_Segmentio_Example.framework in Frameworks */,
+				1A02A4E554813A297EC6C129 /* Pods_MiDSegment_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		22BFCD8BE26632D5C492FBD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF66520A8C3B58E2FC22C362 /* Pods-Segmentio_Example.debug.xcconfig */,
-				9933A064DD85A39037D6C6FC /* Pods-Segmentio_Example.release.xcconfig */,
+				BE3F09C8871621BCB2C3688F /* Pods-MiDSegment_Example.debug.xcconfig */,
+				8526CB75162783D6CEE33DE5 /* Pods-MiDSegment_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -126,8 +126,8 @@
 		327AF5C21D1ABEC100534355 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				327AF5C31D1ABEC100534355 /* LaunchScreen.storyboard */,
-				327AF5C41D1ABEC100534355 /* Main.storyboard */,
+				1E0AD689257922B900D31E98 /* LaunchScreen.storyboard */,
+				1E0AD685257922A500D31E98 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -152,10 +152,10 @@
 			path = Builders;
 			sourceTree = "<group>";
 		};
-		607FA54D9FBA05BC4DDE0F79 /* Frameworks */ = {
+		4FA6427338BC26B4FFE6E5BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AC02D9CEBA230CE9A9BF22C /* Pods_Segmentio_Example.framework */,
+				61EA39F2FE17CF6D789BD63D /* Pods_MiDSegment_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,14 +167,14 @@
 				607FACD21AFB9204008FA782 /* Example for Segmentio */,
 				607FACD11AFB9204008FA782 /* Products */,
 				22BFCD8BE26632D5C492FBD0 /* Pods */,
-				607FA54D9FBA05BC4DDE0F79 /* Frameworks */,
+				4FA6427338BC26B4FFE6E5BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Segmentio_Example.app */,
+				607FACD01AFB9204008FA782 /* MiDSegment_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,23 +217,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* Segmentio_Example */ = {
+		607FACCF1AFB9204008FA782 /* MiDSegment_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Segmentio_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MiDSegment_Example" */;
 			buildPhases = (
-				8AB6C547595E4101B53C77C0 /* [CP] Check Pods Manifest.lock */,
+				A6185618031C45FEF2946285 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				13B1FDE19575AA213A684203 /* [CP] Embed Pods Frameworks */,
+				4A9EC1B4DEB14E558FD6CC57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Segmentio_Example;
+			name = MiDSegment_Example;
 			productName = Segmentio;
-			productReference = 607FACD01AFB9204008FA782 /* Segmentio_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* MiDSegment_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Segmentio" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MiDSegment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,7 +266,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* Segmentio_Example */,
+				607FACCF1AFB9204008FA782 /* MiDSegment_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -276,34 +276,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0AD68A257922B900D31E98 /* LaunchScreen.storyboard in Resources */,
+				1E0AD686257922A500D31E98 /* Main.storyboard in Resources */,
 				327AF5D51D1ABEC100534355 /* Assets.xcassets in Resources */,
-				327AF5E51D1ABEC100534355 /* Main.storyboard in Resources */,
-				327AF5E41D1ABEC100534355 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13B1FDE19575AA213A684203 /* [CP] Embed Pods Frameworks */ = {
+		4A9EC1B4DEB14E558FD6CC57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MiDSegment/Segmentio.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MiDSegment_Example/Pods-MiDSegment_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MiDSegment/MiDSegment.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiDSegment.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiDSegment_Example/Pods-MiDSegment_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8AB6C547595E4101B53C77C0 /* [CP] Check Pods Manifest.lock */ = {
+		A6185618031C45FEF2946285 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,7 +318,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Segmentio_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MiDSegment_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -462,7 +462,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF66520A8C3B58E2FC22C362 /* Pods-Segmentio_Example.debug.xcconfig */;
+			baseConfigurationReference = BE3F09C8871621BCB2C3688F /* Pods-MiDSegment_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -490,7 +490,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9933A064DD85A39037D6C6FC /* Pods-Segmentio_Example.release.xcconfig */;
+			baseConfigurationReference = 8526CB75162783D6CEE33DE5 /* Pods-MiDSegment_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -520,7 +520,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Segmentio" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MiDSegment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -529,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Segmentio_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MiDSegment_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

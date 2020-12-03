@@ -1,6 +1,6 @@
 platform :ios, '11.0'
 use_frameworks!
 
-target 'Segmentio_Example' do
+target 'MiDSegment_Example' do
   pod 'MiDSegment', :path => '../'
 end

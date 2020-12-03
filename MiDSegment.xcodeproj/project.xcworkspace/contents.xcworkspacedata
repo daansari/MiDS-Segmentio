@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Segmentio.xcodeproj">
+      location = "self:/Users/dansari/Projects/Intuit/Libraries/MiDSegment/MiDSegment.xcodeproj">
    </FileRef>
 </Workspace>

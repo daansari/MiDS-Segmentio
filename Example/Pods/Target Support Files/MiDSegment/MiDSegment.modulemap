@@ -1,4 +1,4 @@
-framework module Segmentio {
+framework module MiDSegment {
   umbrella header "MiDSegment-umbrella.h"
 
   export *

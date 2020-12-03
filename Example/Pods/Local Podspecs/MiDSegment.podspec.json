@@ -21,9 +21,9 @@
   "source_files": "MiDSegment/Source/**/*.swift",
   "resources": "MiDSegment/Source/Badge/Views/*.xib",
   "resource_bundles": {
-    "Segmentio": "MiDSegment/Source/Badge/Views/*.xib"
+    "MiDSegment": "MiDSegment/Source/Badge/Views/*.xib"
   },
-  "module_name": "Segmentio",
+  "module_name": "MiDSegment",
   "requires_arc": true,
   "swift_version": "5.0"
 }
