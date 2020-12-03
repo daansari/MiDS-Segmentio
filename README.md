@@ -3,7 +3,7 @@
 
 Animated top/bottom segmented control written in Swift.
 
-![Preview](https://github.com/Yalantis/Segmentio/blob/master/Assets/animation.gif)
+![Preview](https://github.com/dansari/MiDS-Segmentio/blob/master/Assets/animation.gif)
 
 Check this <a href="https://dribbble.com/shots/2820372-Segmentio-Component">project on dribbble</a>.
 
@@ -12,6 +12,9 @@ Check this <a href="https://dribbble.com/shots/2820372-Segmentio-Component">proj
 - Xcode 10
 - iOS 8.x+
 - Swift 5.0
+
+## Notes
+The library has been forked from https://github.com/Yalantis/Segmentio and its features have been extended to fit our products requirements.
 
 ## Installation
 
