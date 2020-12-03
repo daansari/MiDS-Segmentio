@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Segmentio
+import MiDSegment
 
 typealias SideMenuHandler = ((_ style: SegmentioStyle) -> Void)
 

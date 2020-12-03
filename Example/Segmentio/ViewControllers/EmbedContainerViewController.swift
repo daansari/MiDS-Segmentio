@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Segmentio
+import MiDSegment
 
 private let animateDuration: TimeInterval = 0.6
 

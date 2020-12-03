@@ -1,5 +1,5 @@
 ## Segmentio
-[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](https://cocoapods.org/?q=segmentio) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Yalantis/Segmentio/blob/master/LICENSE) ![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Swift Package Manager](https://img.shields.io/badge/swiftpm-compatible-green.svg)
+[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](https://cocoapods.org/?q=midsegment) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/daansari/MiDSegment/blob/rds/1.0.0/LICENSE) ![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg)
 
 Animated top/bottom segmented control written in Swift.
 
@@ -9,8 +9,8 @@ Check this <a href="https://dribbble.com/shots/2820372-Segmentio-Component">proj
 
 ## Requirements
 
-- Xcode 10
-- iOS 8.x+
+- Xcode 12
+- iOS 11.x+
 - Swift 5.0
 
 ## Notes
@@ -22,24 +22,19 @@ The library has been forked from https://github.com/Yalantis/Segmentio and its f
 ```ruby
 use_frameworks! 
 
-pod 'Segmentio'
+pod 'MiDSegment', '1.0.0'
 ```
 
 *CocoaPods v1.1.0 or later required*
 
-#### [Carthage](http://github.com/Carthage/Carthage)
-```ruby
-github "Yalantis/Segmentio"
-```
-
 ## Usage
-#### Import `Segmentio` module
+#### Import `MiDSegment` module
 ```swift
-import Segmentio
+import MiDSegment
 ```
 
 #### Init
-You can initialize a `Segmentio` instance from code:
+You can initialize a `MiDSegment` instance from code:
 
 ```swift
 var segmentioView: Segmentio!
@@ -57,7 +52,7 @@ add a `UIView` instance in your .storyboard or .xib, set `Segmentio` class and c
 @IBOutlet weak var segmentioView: Segmentio!
 ```
 
-#### Setup `Segmentio`
+#### Setup `MiDSegment`
 ```swift
 segmentioView.setup(
 	content: [SegmentioItem],
@@ -106,7 +101,7 @@ segmentioView.valueDidChange = { segmentio, segmentIndex in
 ```
 
 #### Customization
-`Segmentio` can be customized by passing an instance of `SegmentioOptions` struct:
+`MiDSegment` can be customized by passing an instance of `SegmentioOptions` struct:
 
 ```swift
 SegmentioOptions(

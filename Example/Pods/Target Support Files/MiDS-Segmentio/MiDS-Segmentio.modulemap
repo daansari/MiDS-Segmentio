@@ -1,6 +1,0 @@
-framework module Segmentio {
-  umbrella header "MiDS-Segmentio-umbrella.h"
-
-  export *
-  module * { export * }
-}

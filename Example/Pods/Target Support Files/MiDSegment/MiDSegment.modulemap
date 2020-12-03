@@ -1,0 +1,6 @@
+framework module MiDSegment {
+  umbrella header "MiDSegment-umbrella.h"
+
+  export *
+  module * { export * }
+}

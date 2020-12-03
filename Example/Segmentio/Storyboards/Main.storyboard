@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Sgi-ow-Mpv">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Sgi-ow-Mpv">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Disaster's guide-->
         <scene sceneID="voD-sa-fFF">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="uv3-dP-r9Z" customClass="HomeViewController" customModule="Segmentio_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="uv3-dP-r9Z" customClass="HomeViewController" customModule="MiDSegment_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RuD-xI-nzV"/>
                         <viewControllerLayoutGuide type="bottom" id="Cxz-xC-i78"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6th-V5-ZMU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4J-17-RS0">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                                 <connections>
                                     <segue destination="nnH-xc-bez" kind="embed" identifier="EmbedContainerViewController" id="39a-pg-Pje"/>
                                 </connections>
@@ -52,7 +50,7 @@
         <!--Content View Controller-->
         <scene sceneID="xj0-x1-F8g">
             <objects>
-                <viewController storyboardIdentifier="ContentViewController" id="gBn-YW-FOg" customClass="ContentViewController" customModule="Segmentio_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentViewController" id="gBn-YW-FOg" customClass="ContentViewController" customModule="MiDSegment_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cl4-Za-hsw"/>
                         <viewControllerLayoutGuide type="bottom" id="d6b-iV-EUm"/>
@@ -89,7 +87,7 @@
                                 <color key="separatorColor" red="0.96078431606292725" green="0.96078431606292725" blue="0.96078431606292725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" id="C9g-Ij-gNT" customClass="ExampleTableViewCell" customModule="Segmentio_Example" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" id="C9g-Ij-gNT" customClass="ExampleTableViewCell" customModule="MiDSegment_Example" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="311" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C9g-Ij-gNT" id="3tu-UK-HZb">
@@ -99,7 +97,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyX-0h-rHd">
                                                     <rect key="frame" x="25" y="10" width="261" height="24"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" systemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -167,7 +165,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sgi-ow-Mpv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="A36-fE-w8g">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <userDefinedRuntimeAttributes>
@@ -186,7 +184,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="or7-ez-GLT">
             <objects>
-                <viewController storyboardIdentifier="SideMenuViewController" id="xqb-Vc-eXC" customClass="SideMenuViewController" customModule="Segmentio_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuViewController" id="xqb-Vc-eXC" customClass="SideMenuViewController" customModule="MiDSegment_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UOc-OI-b91"/>
                         <viewControllerLayoutGuide type="bottom" id="Lh0-b2-Lg9"/>
@@ -243,18 +241,18 @@
                                         <rect key="frame" x="0.0" y="94" width="262" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k0c-n4-4H9" id="9bd-UY-udW">
-                                            <rect key="frame" x="0.0" y="0.0" width="262" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="262" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bIG-dp-uan">
-                                                    <rect key="frame" x="42" y="0.0" width="205" height="43.5"/>
+                                                    <rect key="frame" x="43" y="0.0" width="203" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="defaultCheckbox" id="f8N-oJ-egW">
-                                                    <rect key="frame" x="15" y="15" width="12" height="12"/>
+                                                    <rect key="frame" x="16" y="16" width="12" height="12"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -292,7 +290,7 @@
         <!--Disaster's guide-->
         <scene sceneID="gNE-tI-bS6">
             <objects>
-                <viewController storyboardIdentifier="ExampleViewController" id="hoe-Iv-t0i" customClass="ExampleViewController" customModule="Segmentio_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExampleViewController" id="hoe-Iv-t0i" customClass="ExampleViewController" customModule="MiDSegment_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XeW-l5-fXQ"/>
                         <viewControllerLayoutGuide type="bottom" id="qlN-Ul-M6a"/>
@@ -301,7 +299,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vkr-KO-SOm" customClass="Segmentio" customModule="Segmentio">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vkr-KO-SOm" customClass="Segmentio" customModule="MiDSegment">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="125" id="MbU-cC-j02"/>
@@ -371,13 +369,13 @@
         <!--Embed Container View Controller-->
         <scene sceneID="nTZ-hQ-Njf">
             <objects>
-                <viewController id="nnH-xc-bez" customClass="EmbedContainerViewController" customModule="Segmentio_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nnH-xc-bez" customClass="EmbedContainerViewController" customModule="MiDSegment_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F7A-hc-H5y"/>
                         <viewControllerLayoutGuide type="bottom" id="riu-eD-uzK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8VE-5b-uC6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -394,5 +392,8 @@
         <image name="menu" width="28" height="14"/>
         <image name="oval" width="18" height="18"/>
         <image name="shadow" width="375" height="9"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
