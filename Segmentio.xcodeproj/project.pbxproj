@@ -58,7 +58,7 @@
 		324B601D1D33E3CC0050B083 = {
 			isa = PBXGroup;
 			children = (
-				324B60411D33E43E0050B083 /* Segmentio */,
+				324B60411D33E43E0050B083 /* MiDSegment */,
 				324B60271D33E3CC0050B083 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,14 +71,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		324B60411D33E43E0050B083 /* Segmentio */ = {
+		324B60411D33E43E0050B083 /* MiDSegment */ = {
 			isa = PBXGroup;
 			children = (
 				324B604A1D33E5200050B083 /* Source */,
 				324B60421D33E43E0050B083 /* Segmentio.h */,
 				324B60441D33E43E0050B083 /* Info.plist */,
 			);
-			path = Segmentio;
+			path = MiDSegment;
 			sourceTree = "<group>";
 		};
 		324B604A1D33E5200050B083 /* Source */ = {

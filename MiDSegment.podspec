@@ -14,9 +14,9 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
   spec.source       = { :git => "https://github.com/daansari/MiDSegment.git", :tag => spec.version }
 
-  spec.source_files = 'Segmentio/Source/**/*.swift'
-  spec.resources = 'Segmentio/Source/Badge/Views/*.xib'
-  spec.resource_bundle = { 'Segmentio' => 'Segmentio/Source/Badge/Views/*.xib' }
+  spec.source_files = 'MiDSegment/Source/**/*.swift'
+  spec.resources = 'MiDSegment/Source/Badge/Views/*.xib'
+  spec.resource_bundle = { 'Segmentio' => 'MiDSegment/Source/Badge/Views/*.xib' }
   spec.module_name  = 'Segmentio'
   spec.requires_arc = true
 end

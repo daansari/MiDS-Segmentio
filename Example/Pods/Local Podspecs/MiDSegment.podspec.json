@@ -18,10 +18,10 @@
     "git": "https://github.com/daansari/MiDSegment.git",
     "tag": "1.0.0"
   },
-  "source_files": "Segmentio/Source/**/*.swift",
-  "resources": "Segmentio/Source/Badge/Views/*.xib",
+  "source_files": "MiDSegment/Source/**/*.swift",
+  "resources": "MiDSegment/Source/Badge/Views/*.xib",
   "resource_bundles": {
-    "Segmentio": "Segmentio/Source/Badge/Views/*.xib"
+    "Segmentio": "MiDSegment/Source/Badge/Views/*.xib"
   },
   "module_name": "Segmentio",
   "requires_arc": true,
