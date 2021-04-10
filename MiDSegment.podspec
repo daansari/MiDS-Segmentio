@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = "MiDSegment"
-  spec.version        = "1.0.0"
+  spec.version        = "1.0.1"
   spec.swift_version  = "5.0"
 
   spec.homepage = "https://github.com/daansari/MiDSegment"
