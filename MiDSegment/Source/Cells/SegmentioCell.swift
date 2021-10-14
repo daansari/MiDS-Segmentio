@@ -21,7 +21,15 @@ class SegmentioCell: UICollectionViewCell {
     
     var topConstraint: NSLayoutConstraint?
     var bottomConstraint: NSLayoutConstraint?
-    var cellSelected = false
+    var cellSelected = false {
+        didSet {
+            if cellSelected {
+                containerView?.accessibilityTraits.insert(.selected)
+            } else {
+                containerView?.accessibilityTraits.remove(.selected)
+            }
+        }
+    }
     
     private var options = SegmentioOptions()
     private var style = SegmentioStyle.imageOverLabel
@@ -90,6 +98,9 @@ class SegmentioCell: UICollectionViewCell {
         
         setupConstraintsForSubviews()
         addVerticalSeparator()
+        
+        containerView?.isAccessibilityElement = true
+        containerView?.accessibilityTraits.insert(.button)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -105,12 +116,14 @@ class SegmentioCell: UICollectionViewCell {
         case .onlyLabel:
             badgePresenter.removeBadgeFromContainerView(containerView!)
             segmentTitleLabel?.text = nil
+            containerView?.accessibilityLabel = nil
         case .onlyImage:
             badgePresenter.removeBadgeFromContainerView(imageContainerView!)
             segmentImageView?.image = nil
         default:
             badgePresenter.removeBadgeFromContainerView(containerView!)
             segmentTitleLabel?.text = nil
+            containerView?.accessibilityLabel = nil
             segmentImageView?.image = nil
         }
     }
@@ -301,6 +314,7 @@ class SegmentioCell: UICollectionViewCell {
             segmentTitleLabel?.textColor = defaultState.titleTextColor
             segmentTitleLabel?.font = defaultState.titleFont
             segmentTitleLabel?.text = content.title
+            containerView?.accessibilityLabel = content.title
             segmentTitleLabel?.lineBreakMode = .byTruncatingMiddle
         }
     }
