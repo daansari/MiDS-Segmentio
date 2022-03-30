@@ -313,7 +313,11 @@ class SegmentioCell: UICollectionViewCell {
             let defaultState = options.states.defaultState
             segmentTitleLabel?.textColor = defaultState.titleTextColor
             segmentTitleLabel?.font = defaultState.titleFont
-            segmentTitleLabel?.text = content.title
+            if let attributedTitle: NSAttributedString = content.attributedTitle {
+                segmentTitleLabel?.attributedText = attributedTitle
+            } else {
+                segmentTitleLabel?.text = content.title
+            }
             containerView?.accessibilityLabel = content.title
             segmentTitleLabel?.lineBreakMode = .byTruncatingMiddle
         }
