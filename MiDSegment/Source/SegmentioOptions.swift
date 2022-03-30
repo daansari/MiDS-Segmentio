@@ -13,19 +13,25 @@ import UIKit
 public struct SegmentioItem {
     
     public var title: String?
+    public var attributedTitle: NSAttributedString?
     public var image: UIImage?
     public var selectedImage: UIImage?
     public var badgeCount: Int?
     public var badgeColor: UIColor?
     public var intrinsicWidth: CGFloat {
         let label = UILabel()
-        label.text = self.title
+        if let attributedTitle = self.attributedTitle {
+            label.attributedText = attributedTitle
+        } else {
+            label.text = self.title
+        }
         label.sizeToFit()
         return label.intrinsicContentSize.width
     }
 
-    public init(title: String?, image: UIImage?, selectedImage: UIImage? = nil) {
+    public init(title: String?, attributedTitle: NSAttributedString? = nil, image: UIImage?, selectedImage: UIImage? = nil) {
         self.title = title
+        self.attributedTitle = attributedTitle
         self.image = image
         self.selectedImage = selectedImage ?? image
     }
