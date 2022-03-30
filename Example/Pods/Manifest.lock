@@ -1,5 +1,5 @@
 PODS:
-  - MiDSegment (1.0.0)
+  - MiDSegment (1.0.3)
 
 DEPENDENCIES:
   - MiDSegment (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MiDSegment: 6cb9c4cf9ce7ac877da27bb0cd5ec7e93ac386a9
+  MiDSegment: 8e74e2b6d207a265a163959fb12603b8fe0f80bf
 
 PODFILE CHECKSUM: f16e85afc774aac256018dcb277d07c8df8d6a4f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
